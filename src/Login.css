@@ -1,0 +1,135 @@
+.login{
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login__logo {
+    margin: 20px auto;
+    object-fit: contain;
+    width: 100px;
+}
+
+
+.login__container{
+    width: 280px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px 35px;
+}
+
+.login__container h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__container form h5{
+    margin-bottom: 5px;
+}
+
+.login__container form input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 98%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.login__container form input:focus{
+    box-shadow: 0 0 2px 2px rgb(110, 193, 221);
+    outline: none;
+}
+
+
+.login__container p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+.login__container p:hover {
+    text-decoration: none;
+}
+.login__container p a{
+    text-decoration: none;
+    color: rgb(58, 58, 237);
+}
+.login__container p a:hover{
+    text-decoration: underline;
+    color: rgb(152, 99, 0)
+}
+
+.login__signInButton {
+    background-color: rgb(255, 217, 27);
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+.login__signInButton:hover {
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login__containerSecond{
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 8px 0px;
+}
+.login__containerSecond p {
+    color: rgb(151, 151, 151);
+    text-align: center;
+    margin: 15px 0 0px;
+    font-size: 12px;
+}
+.login__containerSecond p:hover {
+    text-decoration: none;
+}
+.hr-line1 {
+    flex: 1;
+    width: 35%;
+    margin: 0 10px;
+    border: none; /* Remove default border */
+    border-top: 1px solid lightgray; /* Add custom border style */
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+.hr-line2 {
+    flex: 1;
+    width: 35%;
+    margin: 0 10px;
+    border: none; /* Remove default border */
+    border-top: 1px solid lightgray; /* Add custom border style */
+    position: relative;
+    left: 13.5rem;
+    bottom: 7px;
+}
+
+.login__registerButton {
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    background-color: #fff;
+    border-color: rgb(214, 214, 214);
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0px lightgray;
+}
+.login__registerButton:hover {
+    background-color: #f3f3f3;
+    border-color: rgb(214, 214, 214);
+}
+

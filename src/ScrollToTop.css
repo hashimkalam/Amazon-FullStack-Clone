@@ -1,0 +1,19 @@
+.scroll-to-top {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    top: -33px;
+    background-color: #274065b7;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+.scroll-to-top  p:hover {
+    text-decoration: none;
+}
+
+  
